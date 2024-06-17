@@ -54,7 +54,7 @@ body {
     background-color: var(--light-grey);
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'young';
 }
 
@@ -69,11 +69,6 @@ h2 {
     padding-bottom: .5em;
     font-size: 1.8em;
     font-weight: 100;
-}
-
-h3 {
-    color: var(--dark-raspberry);
-    font-family: 'outfit';
 }
 
 p, li {
@@ -125,6 +120,10 @@ ul li::marker{
     position: absolute;
     top: 1.5em;
     left: 1.5em;
+    font-size: 1.2em;
+    font-family: 'outfit';
+    color: var(--dark-raspberry);
+    font-weight: 700;
 }
 
 .preparation-list {
